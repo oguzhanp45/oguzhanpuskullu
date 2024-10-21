@@ -1,0 +1,240 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(44, 43, 43);
+
+}
+#sayfa{
+    width: 900px;
+    height: 900px;
+    border-style: none;
+    border-width: 1px;
+    margin:auto;
+}
+header{
+    width: 898px;
+    height: 105px;
+    border-style:none;
+    background-color:rgb(22, 21, 21);
+    border-width: 1px;
+    margin-top: 0px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px rgb(148, 142, 142);
+}    
+#anamenu{
+    border-style: none;
+    width: 800px;
+    height: 50px;
+    margin-left: 125px;
+    margin-top: 5px;
+    
+}        
+#anayazi{
+    text-shadow: 1px 1px 3px rgb(184, 174, 174);
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(235, 239, 243);
+    position:relative;
+    margin:0px 0px;
+    padding-top:37px;
+    font-size: 30px;
+    border-style: none;
+    text-align: center;
+    width: 898px;
+    height: 60px;   
+}
+#banneranasayfa{
+    text-decoration: none;
+}
+ul{
+    list-style-type:none;
+
+}
+#anamenu li{
+    border-style: solid;
+    border-color: rgb(235, 239, 243);
+    background-color: rgb(43, 40, 40);
+    border-width:2px;
+    width: 100px;
+    padding: 10px;
+    margin-left: 100px;
+    margin: 5px;
+    border-radius: 30px;
+    float: left;
+    text-align:center;
+}
+#anamenu ul li a{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+    text-decoration: none;
+    color:rgb(235, 239, 243);
+}
+#anamenu ul li a:hover{
+    color: red;
+    text-decoration:none;
+    font-size: 17px;
+
+}
+#icerik{
+    width: 880px;
+    min-height: 640px;
+    border-style:none;
+    background-color:rgb(236, 233, 233);
+    border-width: 1px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px rgb(243, 240, 240);
+    float: left;
+    
+}
+#altmenu{
+    width: 880px;
+    min-height: 70px;
+    border-style:none;
+    background-color:rgb(236, 233, 233);
+    border-width: 1px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px rgb(243, 240, 240);
+    float: left;
+
+}
+#sosyal a img{
+    margin-right: 10px;
+    margin-top: 15px;
+    float: right;   
+}
+#hosgeldinbaslik{
+    margin-left:  320px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(92, 66, 66);
+    
+}
+#anasayfaparagraf{
+    font-size:medium;
+    margin-left: 9px;
+    margin-top: 10px;
+    margin-right: 9px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-indent: 20px;
+    text-align: left;
+}
+#anasayfabaslik{
+    font-size: medium;
+    margin-left: 12px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#websitesipng{
+    margin-top: 30px;
+    margin-left: 20px;
+    float: left;
+}
+#proje1baslik{
+    margin-top: 33px;
+    margin-left: 15px;
+    padding-right: 100px;
+    float: top;
+    float: left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+#proje1paragraf{
+    float: top;
+    margin-left: 240px;
+    margin-top: 60px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-indent: 20px;
+    text-indent: 20px;
+    font-size: medium;
+}
+#sertifikalink{
+    font-size: 15px;
+    text-decoration: none;
+    color:rgb(83, 54, 40);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#sertifikalink:hover{
+    color: rgb(71, 27, 192);
+    text-decoration:none;
+}
+#hakkimdabaslik{
+    float: left;
+    margin-left: 15px;
+    margin-top: 30px;
+    padding-right: 700px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+#hakkimdaparagraf{
+    float: left;
+    margin-left: 15px;
+    margin-top: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-indent: 20px;
+    font-size: medium;
+}
+#iletisimbaslik1{
+    margin-left: 15px;
+    margin-top: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+
+}
+#iletisimmedya{
+    margin-left: 15px;
+    margin-top: 10px;
+
+}
+#iletisimkutusuyazisi{
+    font-size:medium;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+#iletisimbutton1{
+    font-size:medium;
+    margin-left: 90px;
+    margin-top: 1px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 100px;
+    border-style:none;
+    background-color:rgb(165, 142, 142);
+    border-width: 1px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 10px rgb(24, 23, 23); 
+       
+}
+#iletisimbutton2{
+    font-size:medium;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+    width: 100px;
+    border-style:none;
+    background-color:rgb(165, 142, 142);
+    border-width: 1px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 10px rgb(24, 23, 23);
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+#secenek{
+    margin-top: 12px;
+    margin-left: 15px;
+}
+#formonaybutton{
+    margin-top: 20px;
+    margin-left: 35px;
+    
+}
+
+
