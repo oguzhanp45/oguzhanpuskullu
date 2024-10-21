@@ -248,21 +248,25 @@ ul{
     align-items: center;
 }
 
-/* Pop-up içeriği */
 .popup-content {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
     width: 300px;
     text-align: center;
+    position: relative; /* Kapatma tuşunu içerik alanına göre konumlandırmak için */
 }
 
-/* Kapatma butonu */
 .close {
     position: absolute;
     top: 10px;
     right: 20px;
     font-size: 24px;
     cursor: pointer;
+    color: #333; /* Kapatma tuşu rengi */
+}
+
+.close:hover {
+    color: red; /* Hover efekti */
 }
 
