@@ -1,9 +1,15 @@
 //Local storage ile popupu'ı tek seferlik çalıştırabilirdim fakat ödev olduğu için bu şekilde bırakıyorum hocam.
-document.getElementById('closePopup').addEventListener('click', function() {
-    document.getElementById('popup').style.display = 'none';
-});
+// Pop-up'ı göster
 window.onload = function() {
-setTimeout(function() {
-document.getElementById('popup').style.display = 'block';
-}, 1000); // 1 saniye sonra açılır
+    document.getElementById('welcome-popup').style.display = 'flex';
+};
+
+// Kapatma butonu
+document.getElementById('close-btn').onclick = function() {
+    document.getElementById('welcome-popup').style.display = 'none';
+};
+
+// Kapatma simgesi
+document.querySelector('.close-btn').onclick = function() {
+    document.getElementById('welcome-popup').style.display = 'none';
 };
